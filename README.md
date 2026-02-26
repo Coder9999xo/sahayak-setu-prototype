@@ -2,7 +2,7 @@
 
 **Sahayak Setu** is an agentic AI platform designed to bridge the digital divide for rural India using the **Model Context Protocol (MCP)** and **Amazon Bedrock**.
 
-## 🏗 Architecture
+## Architecture
 Our solution uses a "Glass Box" architecture to ensure transparency and trust:
 - **Frontend:** Streamlit (Status-Driven UI)
 - **Orchestrator:** AWS Lambda + Amazon Bedrock (Claude 3.5 Sonnet)
@@ -12,13 +12,13 @@ Our solution uses a "Glass Box" architecture to ensure transparency and trust:
   - `browser_tool`: Headless navigation of government portals (Simulating Playwright)
   - `consent_tool`: Records verbal signatures to Amazon S3
 
-## 🚀 Tech Stack
+## Tech Stack
 - **GenAI Model:** Anthropic Claude 3.5 Sonnet (Vision & Reasoning)
 - **Cloud:** AWS (us-east-1)
 - **Language:** Python 3.10+
 - **Database:** DynamoDB (Session State)
 
-## 📅 Roadmap
+## Roadmap
 - [x] Architecture Design & MCP Schema Definition
 - [x] UI/UX Wireframing (Glass Box Concept)
 - [ ] Integration of Bedrock Knowledge Bases (RAG)
